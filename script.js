@@ -80,29 +80,6 @@ function removeActiveClass() {
   })
 }
 
-// function timer() {
-//   btn.addEventListener(`click`, () => {
-//     if(btn.innerHTML == `start`){
-//       btn.innerHTML = `stop`;
-//       starter.classList.add(`active`)
-//       intervals();
-//     }else if(btn.innerHTML == `stop`){
-//       starter.classList.remove(`active`);
-//       starter.classList.add(`active_clear`);
-//       btn.innerHTML = `reset`;
-//     }else if(btn.innerHTML == `reset`){
-//       swSec.innerHTML = 0;
-//       swMin.innerHTML = 0;
-//       swHour.innerHTML = 0;
-//       btn.innerHTML = `start`;
-//     }
-//   })
-// }
-
-// timer();
-
-
-
 // const timer1 = document.querySelector(`.tabsItem:nth-of-type(1)`),
 //       timer2 = document.querySelector(`.tabsItem:nth-of-type(2)`),
 //       clockMin = document.querySelector(`.clock.tabsContentItem`),
@@ -132,26 +109,6 @@ function removeActiveClass() {
 //     starter.classList.add(`active_clear`)
 //   })
 // })
-
-
-// function intervals() {
-//   if(swSec.innerHTML < 59){
-//     swSec.innerHTML++
-//   }else if(swSec.innerHTML == 59){
-//     swSec.innerHTML = 0;
-//     if(swMin.innerHTML < 59){
-//       swMin.innerHTML++;
-//     }else if(swMin.innerHTML == 59){
-//       swMin.innerHTML = 0;
-//       if(swHour.innerHTML < 100){
-//         swHour.innerHTML++;
-//       }else if(swHour.innerHTML == 100){
-//         swHour.innerHTML = 0;
-//       }
-//     }
-//   }
-//   setTimeout(() => intervals(), 1000)
-// }
 
 
 function timer() {
